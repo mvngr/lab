@@ -3,4 +3,6 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += main.c
+SOURCES += \
+    lab_04_01.c \
+    lab_04_02.c

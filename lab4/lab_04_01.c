@@ -50,7 +50,19 @@ int main() {
         n++;
     }
 
+    printf("\n\n");
 
+    double *ptr;
+
+     ptr = malloc(1000 * sizeof(double));
+
+     for (int i = 0; i < 130; i++)
+        ptr[i] = i/100;
+
+     free(ptr);
+
+     for(int i = 0; i < 1000; i++)
+         printf("%.1lf ", *(ptr + i));
 
     return 0;
 }

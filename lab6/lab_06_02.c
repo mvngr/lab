@@ -156,17 +156,8 @@ void greetMe(char * link, char * name)
                 i++;
             }
             else
-                index = i;
-            
+                index = i; 
             ch = fgetc(fileIn);
-            
-            
-            /*if (ch == '_'){
-            int _for;
-            for (_for = 0; _for < strlen(name); _for++)
-                fputc(name[_for], fileIn);
-            }
-            ch = fgetc(fileIn);*/
         }
     }
     fclose(fileIn);

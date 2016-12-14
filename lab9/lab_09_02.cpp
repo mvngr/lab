@@ -1,9 +1,12 @@
 #include <iostream>
 #include <string>
+#include <vector>
+#include <fstream>
 
 using namespace std;
+
 void getDim(string m, int & row, int & col) { //определяет размеры
-    // в эту функцию передаются ссылки на память
+    // в эту функцию передаются указатели на память
     // в следствии чего я изменяю col и row, не возвращая ничего
     row = 0; col = 0;
 
@@ -159,13 +162,75 @@ void splitHC(string s) {
 }
 
 void divide(int n) {
-    //todo
+    int res = 0;
+    for(int i = 1; i <= 1000; i++) {
+        i%n==0?res++:false; //false для того, чтобы он ничего не делал. Можно написать true, ничего не изменится
+    }
+    cout << '\n' << res << endl;
+}
+
+vector<vector<int>> badMatrix() {
+    vector<vector<int>> a;
+    return a;
+}
+
+vector<vector<double>> readMatrix (string link) {
+	ifstream fileIn(link, ios::in);
+	int n, m;
+	charr c;
+	fileIn >> m >> c >> n;
+	vector<vector<double> > arr (m);
+	for (int i = 0; i < m; i++) {
+		arr[i].resize(n);
+		for (int j = 0; j < n; j++) {
+			fileIn >> arr[i][j];
+		}
+	}
+	return arr;
+}
+
+vector<vector<double>> multiplyByMatrix(vector<vector<double>> matrix1, vector<vector<double>> matrix2) {
+	int m1 = matrix1.size(),
+		n1 = matrix1[0].size(),
+		m2 = matrix2.size(),
+		n2 = matrix2[0].size();
+	if (n1 != m2) {
+		printf("\n-->Multiply_by_Matrix_ERROR\n\n");
+	}
+	vector<vector<double>> arr;
+	arr.resize(m1);
+	for (int i = 0; i < m1; i++) {
+		arr[i].resize(n2);
+		for (int j = 0; j < n2; j++) {
+			double sum = 0.0;
+			for (int k = 0; k < n1; k++) {
+				sum += matrix1[i][k] * matrix2[k][j];
+			}
+			arr[i][j] = sum;
+		}
+	}
+	return arr;
+}
+
+void saveMatrix(vector<vector<double>> arr, string link) {
+    ofstream fileOut(link, ios::out);
+	fileOut << arr.size() << ',' << arr[0].size() << "\n";
+	for (int i = 0; i < arr.size(); i++) {
+		for (int j = 0; j < arr[0].size(); j++) {
+			fileOut << arr[i][j];
+			if (j < arr[0].size() - 1) {
+				fileOut << ',';
+			}
+		}
+		fileOut << "\n";
+	}
 }
 
 int main() {
 
     string m;
     int n;
+    setlocale(LC_ALL, "rus");
 
     //#3
     //cin >> m;
@@ -181,6 +246,9 @@ int main() {
     //#6
     //cin >> n;
     //divide(n);
+    //#7
+    saveMatrix(multiplyByMatrix(readMatrix("matrix1.txt"), readMatrix("matrix2.txt")), "matrix3.txt");
+
 
     return 0;
 }

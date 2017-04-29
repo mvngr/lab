@@ -1,0 +1,5 @@
+C:\Users\bach\Desktop\Divider\Divider\bin\Debug\Divider.exe.config
+C:\Users\bach\Desktop\Divider\Divider\bin\Debug\Divider.exe
+C:\Users\bach\Desktop\Divider\Divider\bin\Debug\Divider.pdb
+C:\Users\bach\Desktop\Divider\Divider\obj\Debug\Divider.exe
+C:\Users\bach\Desktop\Divider\Divider\obj\Debug\Divider.pdb

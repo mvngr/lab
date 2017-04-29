@@ -1,0 +1,6 @@
+C:\Users\bach\Desktop\Distance\Distance\bin\Debug\Distance.exe.config
+C:\Users\bach\Desktop\Distance\Distance\bin\Debug\Distance.exe
+C:\Users\bach\Desktop\Distance\Distance\bin\Debug\Distance.pdb
+C:\Users\bach\Desktop\Distance\Distance\obj\Debug\Distance.csprojResolveAssemblyReference.cache
+C:\Users\bach\Desktop\Distance\Distance\obj\Debug\Distance.exe
+C:\Users\bach\Desktop\Distance\Distance\obj\Debug\Distance.pdb

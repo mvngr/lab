@@ -1,0 +1,5 @@
+C:\Users\bach\Desktop\Calc_switch\Calc_switch\bin\Debug\Calc_switch.exe.config
+C:\Users\bach\Desktop\Calc_switch\Calc_switch\bin\Debug\Calc_switch.exe
+C:\Users\bach\Desktop\Calc_switch\Calc_switch\bin\Debug\Calc_switch.pdb
+C:\Users\bach\Desktop\Calc_switch\Calc_switch\obj\Debug\Calc_switch.exe
+C:\Users\bach\Desktop\Calc_switch\Calc_switch\obj\Debug\Calc_switch.pdb

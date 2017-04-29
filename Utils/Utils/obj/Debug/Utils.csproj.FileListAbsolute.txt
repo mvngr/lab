@@ -1,0 +1,6 @@
+C:\Users\bach\Desktop\Utils\Utils\bin\Debug\Utils.exe.config
+C:\Users\bach\Desktop\Utils\Utils\bin\Debug\Utils.exe
+C:\Users\bach\Desktop\Utils\Utils\bin\Debug\Utils.pdb
+C:\Users\bach\Desktop\Utils\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
+C:\Users\bach\Desktop\Utils\Utils\obj\Debug\Utils.exe
+C:\Users\bach\Desktop\Utils\Utils\obj\Debug\Utils.pdb

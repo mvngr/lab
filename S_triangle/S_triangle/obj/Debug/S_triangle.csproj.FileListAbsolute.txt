@@ -1,0 +1,6 @@
+C:\Users\bach\Desktop\S_triangle\S_triangle\bin\Debug\S_triangle.exe.config
+C:\Users\bach\Desktop\S_triangle\S_triangle\bin\Debug\S_triangle.exe
+C:\Users\bach\Desktop\S_triangle\S_triangle\bin\Debug\S_triangle.pdb
+C:\Users\bach\Desktop\S_triangle\S_triangle\obj\Debug\S_triangle.csprojResolveAssemblyReference.cache
+C:\Users\bach\Desktop\S_triangle\S_triangle\obj\Debug\S_triangle.exe
+C:\Users\bach\Desktop\S_triangle\S_triangle\obj\Debug\S_triangle.pdb

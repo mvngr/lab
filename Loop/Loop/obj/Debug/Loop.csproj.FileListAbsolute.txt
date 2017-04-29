@@ -1,0 +1,6 @@
+C:\Users\bach\Desktop\Loop\Loop\bin\Debug\Loop.exe.config
+C:\Users\bach\Desktop\Loop\Loop\bin\Debug\Loop.exe
+C:\Users\bach\Desktop\Loop\Loop\bin\Debug\Loop.pdb
+C:\Users\bach\Desktop\Loop\Loop\obj\Debug\Loop.exe
+C:\Users\bach\Desktop\Loop\Loop\obj\Debug\Loop.pdb
+C:\Users\bach\Desktop\Loop\Loop\obj\Debug\Loop.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+F:\labs\MatrixMultiply\MatrixMultiply\bin\Debug\MatrixMultiply.exe.config
+F:\labs\MatrixMultiply\MatrixMultiply\bin\Debug\MatrixMultiply.exe
+F:\labs\MatrixMultiply\MatrixMultiply\bin\Debug\MatrixMultiply.pdb
+F:\labs\MatrixMultiply\MatrixMultiply\obj\Debug\MatrixMultiply.exe
+F:\labs\MatrixMultiply\MatrixMultiply\obj\Debug\MatrixMultiply.pdb
+F:\labs\MatrixMultiply\MatrixMultiply\obj\Debug\MatrixMultiply.csprojResolveAssemblyReference.cache
+G:\labs\MatrixMultiply\MatrixMultiply\bin\Debug\MatrixMultiply.exe.config
+G:\labs\MatrixMultiply\MatrixMultiply\obj\Debug\MatrixMultiply.exe
+G:\labs\MatrixMultiply\MatrixMultiply\obj\Debug\MatrixMultiply.pdb

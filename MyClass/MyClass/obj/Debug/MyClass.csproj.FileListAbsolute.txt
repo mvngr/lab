@@ -1,0 +1,9 @@
+F:\labs\MyClass\MyClass\bin\Debug\MyClass.exe.config
+F:\labs\MyClass\MyClass\bin\Debug\MyClass.exe
+F:\labs\MyClass\MyClass\bin\Debug\MyClass.pdb
+F:\labs\MyClass\MyClass\obj\Debug\MyClass.csprojResolveAssemblyReference.cache
+F:\labs\MyClass\MyClass\obj\Debug\MyClass.exe
+F:\labs\MyClass\MyClass\obj\Debug\MyClass.pdb
+G:\labs\MyClass\MyClass\bin\Debug\MyClass.exe.config
+G:\labs\MyClass\MyClass\obj\Debug\MyClass.exe
+G:\labs\MyClass\MyClass\obj\Debug\MyClass.pdb

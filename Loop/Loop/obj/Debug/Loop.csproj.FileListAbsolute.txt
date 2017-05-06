@@ -4,3 +4,9 @@ C:\Users\bach\Desktop\Loop\Loop\bin\Debug\Loop.pdb
 C:\Users\bach\Desktop\Loop\Loop\obj\Debug\Loop.exe
 C:\Users\bach\Desktop\Loop\Loop\obj\Debug\Loop.pdb
 C:\Users\bach\Desktop\Loop\Loop\obj\Debug\Loop.csprojResolveAssemblyReference.cache
+F:\labs\Loop\Loop\bin\Debug\Loop.exe.config
+F:\labs\Loop\Loop\obj\Debug\Loop.exe
+F:\labs\Loop\Loop\obj\Debug\Loop.pdb
+F:\labs\Loop\Loop\bin\Debug\Loop.exe
+F:\labs\Loop\Loop\bin\Debug\Loop.pdb
+F:\labs\Loop\Loop\obj\Debug\Loop.csprojResolveAssemblyReference.cache

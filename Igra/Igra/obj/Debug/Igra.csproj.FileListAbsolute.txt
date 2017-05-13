@@ -1,0 +1,6 @@
+F:\labs\Igra\Igra\bin\Debug\Igra.exe.config
+F:\labs\Igra\Igra\bin\Debug\Igra.exe
+F:\labs\Igra\Igra\bin\Debug\Igra.pdb
+F:\labs\Igra\Igra\obj\Debug\Igra.exe
+F:\labs\Igra\Igra\obj\Debug\Igra.pdb
+F:\labs\Igra\Igra\obj\Debug\Igra.csprojResolveAssemblyReference.cache

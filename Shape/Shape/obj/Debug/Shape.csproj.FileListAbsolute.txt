@@ -1,0 +1,6 @@
+F:\labs\Shape\Shape\bin\Debug\Shape.exe.config
+F:\labs\Shape\Shape\bin\Debug\Shape.exe
+F:\labs\Shape\Shape\bin\Debug\Shape.pdb
+F:\labs\Shape\Shape\obj\Debug\Shape.csprojResolveAssemblyReference.cache
+F:\labs\Shape\Shape\obj\Debug\Shape.exe
+F:\labs\Shape\Shape\obj\Debug\Shape.pdb

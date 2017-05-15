@@ -51,16 +51,21 @@ namespace S_triangle
             Console.WriteLine(LINE);
             Console.WriteLine("Имя: {0}", name);
             if (coins <= startCoins / 2)
+            {
                 Console.ForegroundColor = ConsoleColor.Red;
-            if (coins == 0)
-                Console.ForegroundColor = ConsoleColor.DarkRed;
+                if (coins == 0)
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
+            }
             if (coins >= startCoins * 2)
+            {
                 Console.ForegroundColor = ConsoleColor.Green;
-            if (coins >= startCoins * 3)
-                Console.ForegroundColor = ConsoleColor.DarkGreen;
+                if (coins >= startCoins * 3)
+                    Console.ForegroundColor = ConsoleColor.DarkGreen;
+            }
             Console.WriteLine("Монеток: {0}", coins);
             Console.ResetColor();
             Console.WriteLine(LINE);
+            return;
         }
     }
 }

@@ -155,8 +155,10 @@ namespace S_triangle
                 }
                 else
                 {
-                    Console.Write("Введите стандартную ставку: ");
+                    
                     if (key_def_bet == -1)
+                    {
+                        Console.Write("Введите стандартную ставку: ");
                         while (key_def_bet < 1)
                         {
                             try
@@ -168,6 +170,7 @@ namespace S_triangle
                                 key_def_bet = -1;
                             }
                         }
+                    }
                     str_arr = new string[2];
                     str_arr[0] = Console.ReadKey().KeyChar.ToString();
                     str_arr[1] = key_def_bet.ToString();
@@ -179,6 +182,14 @@ namespace S_triangle
                     if (str_arr[0] == "key")
                     {
                         keyMethod = true;
+                        err = "Включена игра при помощи клавиш";
+                        continue;
+                    }
+                    if(str_arr[0] == "s")
+                    {
+                        keyMethod = false;
+                        key_def_bet = -1;
+                        err = "Отменена игра клавишами";
                         continue;
                     }
                     if (str_arr[0] == "stop" || str_arr[0] == "стоп")

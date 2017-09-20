@@ -1,0 +1,6 @@
+c:\users\bach\documents\visual studio 2015\Projects\temp\temp\bin\Debug\temp.exe.config
+c:\users\bach\documents\visual studio 2015\Projects\temp\temp\obj\Debug\temp.csprojResolveAssemblyReference.cache
+c:\users\bach\documents\visual studio 2015\Projects\temp\temp\bin\Debug\temp.exe
+c:\users\bach\documents\visual studio 2015\Projects\temp\temp\bin\Debug\temp.pdb
+c:\users\bach\documents\visual studio 2015\Projects\temp\temp\obj\Debug\temp.exe
+c:\users\bach\documents\visual studio 2015\Projects\temp\temp\obj\Debug\temp.pdb

@@ -1,0 +1,5 @@
+C:\Users\mihai\Documents\rider\findlab\findlab\bin\Debug\findlab.exe
+C:\Users\mihai\Documents\rider\findlab\findlab\bin\Debug\findlab.pdb
+C:\Users\mihai\Documents\rider\findlab\findlab\obj\Debug\findlab.csprojResolveAssemblyReference.cache
+C:\Users\mihai\Documents\rider\findlab\findlab\obj\Debug\findlab.exe
+C:\Users\mihai\Documents\rider\findlab\findlab\obj\Debug\findlab.pdb

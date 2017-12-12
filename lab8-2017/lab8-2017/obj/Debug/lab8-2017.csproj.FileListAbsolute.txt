@@ -1,0 +1,5 @@
+C:\Users\mihai\Documents\rider\lab8-2017\lab8-2017\bin\Debug\lab8_2017.exe
+C:\Users\mihai\Documents\rider\lab8-2017\lab8-2017\bin\Debug\lab8_2017.pdb
+C:\Users\mihai\Documents\rider\lab8-2017\lab8-2017\obj\Debug\lab8-2017.csprojResolveAssemblyReference.cache
+C:\Users\mihai\Documents\rider\lab8-2017\lab8-2017\obj\Debug\lab8_2017.exe
+C:\Users\mihai\Documents\rider\lab8-2017\lab8-2017\obj\Debug\lab8_2017.pdb

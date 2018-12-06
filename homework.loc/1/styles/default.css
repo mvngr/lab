@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+.content{
+	width: 60%;
+	margin: auto;
+}
+.menu{
+	display: flex;
+	height: 4em;
+	font-size: 1.33em;
+	justify-content: center;
+}
+.menu *{
+	margin: auto 1em;
+}
+.menu a{
+	color: black;
+	outline: none;
+	text-decoration: none;
+	white-space: nowrap;
+}
+.menu a::before{
+	content: "< ";
+}
+.menu a::after{
+	content: " >";
+}
+
+@media (max-width: 1023px) {
+	.content{
+		width: 100%;
+	}
+}

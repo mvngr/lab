@@ -113,15 +113,22 @@ namespace Petzold.Simple3DSceneInCode
             MeshGeometry3D mesh = new MeshGeometry3D();
 
             Point3D point;
-            for(int i = 0; i < 2; i++) //Ставим нижние 4 точки
-            {
-                point = new Point3D(width / 2, 0, width / 2);
-                mesh.Positions.Add(point);
-                point = new Point3D(-width / 2, 0, -width / 2);
-                mesh.Positions.Add(point);
-            }
+            
+            point = new Point3D(width / 2, 0, width / 2);
+            mesh.Positions.Add(point);
+            point = new Point3D(width / 2, 0, -width / 2);
+            mesh.Positions.Add(point);
+            point = new Point3D(-width / 2, 0, -width / 2);
+            mesh.Positions.Add(point);
+            point = new Point3D(-width / 2, 0, width / 2);
+            mesh.Positions.Add(point);
+
             mesh.Positions.Add(new Point3D(0, h, 0)); //Ставим верхнюю точку
 
+            foreach (Point3D a in mesh.Positions)
+            {
+                Debug.WriteLine(a.ToString());
+            }
             //Начинаем соединять две нижние точки и одну верхнюю
             mesh.TriangleIndices.Add(0);
             mesh.TriangleIndices.Add(1);

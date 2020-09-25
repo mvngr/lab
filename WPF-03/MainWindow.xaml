@@ -1,0 +1,33 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ToolBar VerticalAlignment="Top">
+            <Button x:Name="save" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Center" Click="SaveCanvas"/>
+            <Button x:Name="open" Content="Open" HorizontalAlignment="Left" VerticalAlignment="Center" Click="OpenCanvas"/>
+            <Button x:Name="clear" Content="Clear" HorizontalAlignment="Left" VerticalAlignment="Center" Click="ClearCanvas"/>
+            <ComboBox x:Name="ToolChooser" HorizontalAlignment="Left" VerticalAlignment="Center" SelectionChanged="ComboBox_SelectionChanged">
+                <ComboBoxItem x:Name="pen" Content="Pen" IsSelected="True"/>
+                <ComboBoxItem x:Name="erase"  Content="Erase"/>
+                <ComboBoxItem x:Name="select"  Content="Select"/>
+            </ComboBox>
+            <Button x:Name="BlackColor" Height="12" Width="12" Background="Black" Click="ColorChanged"/>
+            <Button x:Name="RedColor" Height="12" Width="12" Background="Red" Click="ColorChanged"/>
+            <Button x:Name="GreenColor" Height="12" Width="12" Background="Green" Click="ColorChanged"/>
+            <Button x:Name="BlueColor" Height="12" Width="12" Background="Blue" Click="ColorChanged"/>
+
+        </ToolBar>
+        <InkCanvas x:Name="myCanvas"  HorizontalAlignment="Center" Height="374" VerticalAlignment="Top" Width="780" Background="White" Margin="0,35,0,0">
+        </InkCanvas>
+        <StatusBar x:Name="statusBar" VerticalAlignment="Bottom" HorizontalAlignment="Stretch">
+            <Label x:Name="statusText" Width="auto" Height="auto" Content="" FontSize="12"/>
+        </StatusBar>
+
+    </Grid>
+</Window>

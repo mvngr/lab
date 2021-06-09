@@ -19,10 +19,6 @@ MainWindow::MainWindow(QWidget *parent)
     scene_ = new MyScene(this);
     ui->graphicsView->setScene(scene_);
     //убираем прокрутку при рисовании
-    ui->graphicsView->setFocusPolicy( Qt::NoFocus );
-    ui->graphicsView->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-    ui->graphicsView->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-    scene_->setSceneRect(ui->graphicsView->sceneRect());
 
     //делаем только одну кнопку выделяемой
     QActionGroup *actionGroup = new QActionGroup(this);

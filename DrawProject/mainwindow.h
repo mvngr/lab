@@ -36,7 +36,7 @@ private:
     MyScene *scene_ = nullptr;
 
     std::map<MyScene::SceneMode, QAction *> actions_ {
-        { MyScene::Cursour, new QAction("Arrow", this) },
+        { MyScene::Cursour, new QAction("Cursour", this) },
         { MyScene::Line, new QAction("Line", this) }
     };
 

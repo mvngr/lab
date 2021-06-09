@@ -43,11 +43,10 @@ void MyScene::mouseMoveEvent(QGraphicsSceneMouseEvent *event)
             currentDrawLine_ = new QGraphicsLineItem();
             addItem(currentDrawLine_);
             currentDrawLine_->setPen(QPen(Qt::black, 3, Qt::SolidLine));
-            currentDrawLine_->setPos(startPoint_);
         }
-        currentDrawLine_->setLine(0,0,
-                            event->scenePos().x() - startPoint_.x(),
-                            event->scenePos().y() - startPoint_.y());
+        currentDrawLine_->setLine(startPoint_.x(), startPoint_.y(),
+                            event->scenePos().x() ,
+                            event->scenePos().y() );
     }
     else
         QGraphicsScene::mouseMoveEvent(event);

@@ -16,6 +16,9 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
+     <widget class="QComboBox" name="comboBox"/>
+    </item>
+    <item>
      <widget class="QGraphicsView" name="graphicsView"/>
     </item>
    </layout>

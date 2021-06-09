@@ -25,7 +25,13 @@ public:
 
     void saveData();
 
+private slots:
+    void on_comboBox_currentIndexChanged(int index);
+
 private:
+    void updComboBox();
+
+
     Ui::MainWindow *ui;
     MyScene *scene_ = nullptr;
 
